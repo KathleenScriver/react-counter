@@ -6,7 +6,7 @@ export default class App extends Component {
   render () {
     return (
       <div className="App">
-        <Counter />
+        <Counter count={5} />
       </div>
     );
   }
